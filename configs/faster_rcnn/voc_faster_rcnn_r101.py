@@ -1,6 +1,6 @@
 model = dict(
     type='FasterRCNN',
-    pretrained='/tmp/ImageNet-pretrained/resnet101-5d3b4d8f.pth',
+    pretrained='/tmp/ImageNet-pretrained/resnet101-5d3b4d8f.pth',#缺少，需要修改
     backbone=dict(
         type='ResNet',
         depth=101,
